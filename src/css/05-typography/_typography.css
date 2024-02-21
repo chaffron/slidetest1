@@ -1,0 +1,57 @@
+
+.font--bold {
+  font-family: "AvenirNextLTW02-Bold", sans-serif;
+}
+
+
+.text-name {
+	font-size: 12vmin;
+	text-align: center;
+}
+
+.text-intro {
+	font-size: 6vmin;
+	line-height: 1.2;
+	text-align: center;
+	padding: 30vh 10vw;
+}
+.text-date {
+	font-size: 4vmin;
+	line-height: 1.2;
+	text-align: left;
+}
+.text-statistic {
+	text-transform: uppercase;
+	font-size: 12vmin;
+	line-height: 1;
+}
+.text-statistic--mega {
+	padding: 8%;
+	font-size: 20vmin;
+	line-height: 1;
+	text-align: right;
+}
+.text-basic {
+	font-size: 3vmin;
+}
+.text-basic--push {
+	width: max-content;
+	margin-left: auto;
+	margin-top: auto;
+}
+.text-min--right {
+	width: max-content;
+	margin-left: auto;
+}
+
+
+@media only screen and (max-width: 60em) {
+	.hide-for-small {
+		display: none;
+	}
+}
+@media only screen and (min-width: 60.0125em) {
+	.show-for-small {
+		display: none;
+	}
+}

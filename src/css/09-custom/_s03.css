@@ -1,0 +1,79 @@
+
+#s03 {
+	background-color: var(--brand-purple);
+	.content-wrap {
+		z-index: 5;
+		padding: 5%;
+		height: 92%;
+		position: relative;
+		.content {
+			padding: 5%;
+			height: 100%;
+			display: flex;
+			flex-direction: column;
+		}
+	}
+	.shape-wrap {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: 2;
+	}
+	.shape01 {
+		position: relative;
+		height: 100%;
+		background-color: var(--brand-purple--60);
+		clip-path: polygon(0 0, 30% 0, 100% 100%, 0 100%);
+		opacity: 0.8;
+		transition: all ease-in-out 500ms;
+	}
+	.shape02 {
+		position: absolute;
+		background-color: white;
+		opacity: 0.3;
+		width: 25vw;
+		height: 25vw;
+		z-index: 4;
+		bottom: 0;
+		right: 0;
+		clip-path: circle();
+		transition: all ease-in-out 500ms;
+	}
+	.content01,
+	.content02 {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		margin-top: 8%;
+	}
+	.content01 {
+		opacity: 1;
+		transition: opacity ease-in-out 1s;
+	}
+	.content02 {
+		opacity: 0;
+		transition: opacity ease-in-out 1s;
+		.content {
+			padding: 10%;
+			justify-content: space-between;
+		}
+	}
+	&.show02 {
+		.content01 {
+			opacity: 0;
+			transition: opacity ease-in-out 1s;
+		}
+		.content02 {
+			opacity: 1;
+			transition: opacity ease-in-out 1s;
+		}
+		.shape01 {
+			clip-path: polygon(70% 0, 100% 0, 100% 100%, 0 100%);
+		}
+		.shape02 {
+			right: 75%;
+		}
+	}
+}

@@ -1,66 +1,78 @@
 .slides {
 
-  .infade {
-    opacity: var(--inview);
-  }
+	.infade {
+		opacity: var(--inview);
+	}
 
-  .inscale {
-    scale: var(--inview);
-  }
+	.inscale {
+		scale: var(--inview);
+	}
 
-  .inrotate {
-    rotate: calc(var(--inview) * -360deg);
-  }
+	.inrotate {
+		rotate: calc(var(--inview) * -360deg);
+	}
 
-  .inleft {
-    translate: calc((var(--inview) - 1) * 100%) 0;
-  }
+	.inleft {
+		translate: calc((var(--inview) - 1) * 100%) 0;
+	}
 
-  .inright {
-    translate: calc((1 - var(--inview)) * 100%) 0;
-  }
+	.inright {
+		translate: calc((1 - var(--inview)) * 100%) 0;
+	}
 
-  .inup {
-    translate: 0 calc((1 - var(--inview)) * 30dvh);
-  }
+	.inup {
+		translate: 0 calc((1 - var(--inview)) * 30dvh);
+	}
 
-  .indown {
-    translate: 0 calc((1 - var(--inview)) * -30dvh);
-  }
+	.indown {
+		translate: 0 calc((1 - var(--inview)) * -30dvh);
+	}
 
-  .showfade, .showscale, .showleft, .showright, .showup {
-    transition: all ease-out 0.5s;
-  }
+	.showfade, .showscale, .showleft, .showright, .showup {
+		transition: all ease-out 0.5s;
+	}
 
-  .delay1 {
-    transition-delay: 0.5s;
-  }
+	.delay1 {
+		transition-delay: 0.5s;
+	}
 
-  .delay2 {
-    transition-delay: 1.0s;
-  }
+	.delay2 {
+		transition-delay: 1.0s;
+	}
 
-  .delay3 {
-    transition-delay: 1.5s;
-  }
+	.delay3 {
+		transition-delay: 1.5s;
+	}
 
-  .inactive {
+	.inactive {
 
-    .showfade { opacity: 0; }
-    .showscale { scale: 0; }
-    .showleft { translate: -100% 0; }
-    .showright { translate: 100% 0; }
-    .showup { translate: 0 100dvh; }
-    .showdown { translate: 0 -100dvh; }
+		.showfade { opacity: 0; }
+		.showscale { scale: 0; }
+		.showleft { translate: -100% 0; }
+		.showright { translate: 100% 0; }
+		.showup { translate: 0 100dvh; }
+		.showdown { translate: 0 -100dvh; }
 
-  }
+	}
 
-  .active {
+	.active {
 
-    .showfade { opacity: 1; }
-    .showscale { scale: 1; }
-    .showleft, .showright, .showup, .showdown { translate: 0 0; }
+		.showfade { opacity: 1; }
+		.showscale { scale: 1; }
+		.showleft, .showright, .showup, .showdown { translate: 0 0; }
 
-  }
+	}
 
+}
+
+#s01.active ~ #dividers {
+  transform: rotate(45deg);
+  top: 50%;
+  left: 30%;
+}
+
+#s02.active ~ #dividers {
+  transform: rotate(225deg);
+  top: 10%;
+  left: 70%;
 }

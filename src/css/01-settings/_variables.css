@@ -1,12 +1,18 @@
 :root {
 
-  /* foreground colours */
-  --color-fore1: #fff;
+	/* foreground colours */
+	--color-fore1: #fff;
 
-  /* background colours */
-  --color-back1: #030405;
+	/* background colours */
+	--color-back1: #030405;
 
-  /* link colours */
-  --color-link1: #33f;
-  --color-link2: #99d;
+	/* link colours */
+	--color-link1: #33f;
+	--color-link2: #99d;
+
+	/* Brand colours */
+	--brand-purple: #B288B9;
+	--brand-purple--80: #C1A0C7;
+	--brand-purple--60: #D1B8D5;
+	--brand-orange: #E6A65D;
 }

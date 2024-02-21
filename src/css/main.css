@@ -7,7 +7,14 @@
 @import '02-design/_animations';
 
 @import '03-elements/_block';
+@import '03-elements/_dividers';
 
 @import '04-components/_share';
 
+@import '05-typography/_typography';
+
+@import '06-layouts/_layouts';
+
 @import '09-custom/_slideshow';
+@import '09-custom/_s03';
+@import '09-custom/_s04';
