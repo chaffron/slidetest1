@@ -1,3 +1,39 @@
 #s04 {
-	background-color: var(--brand-orange);
+	background-color: var(--colour__white);
+	.r1c1 {
+		background-color: var(--colour__blue--40);
+		.graph-bar {
+			background-color: var(--colour__blue--80);
+		}
+	}
+	.r1c2 {
+		background-color: var(--colour__teal--40);
+		.graph-bar {
+			background-color: var(--colour__teal--80);
+		}
+	}
+	.r1c3 {
+		background-color: var(--colour__green--40);
+		.graph-bar {
+			background-color: var(--colour__green--80);
+		}
+	}
+	.r2c1 {
+		background-color: var(--colour__blue--80);
+	}
+	.r2c2 {
+		background-color: var(--colour__teal--80);
+	}
+	.r2c3 {
+		background-color: var(--colour__green--80);
+	}
+	.graph-overlay {
+		position: absolute;
+		top: 60vh;
+		width: 100vw;
+		text-align: center;
+		z-index: 5;
+		transition: all ease-in-out 1.5s;
+	}
+	
 }

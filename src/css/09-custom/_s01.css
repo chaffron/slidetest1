@@ -1,0 +1,32 @@
+
+#s01 {
+	background-color: var(--colour__black);
+	/* .content-wrap {
+	} */
+	.content01,
+	.content02 {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100vw;
+		height: 100vh;
+	}
+	.content01 {
+		opacity: 1;
+		transition: opacity ease-in-out 1s;
+	}
+	.content02 {
+		opacity: 0;
+		transition: opacity ease-in-out 1s;
+	}
+	&:not(.in50) {
+		.content01 {
+			opacity: 0;
+			transition: opacity ease-in-out 1s;
+		}
+		.content02 {
+			opacity: 1;
+			transition: opacity ease-in-out 1s;
+		}
+	}
+}

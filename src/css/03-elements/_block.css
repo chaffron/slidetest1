@@ -1,16 +1,50 @@
 h1 {
-  font-size: 20vmin;
-  text-align: center;
-  margin-block-start: 30dvh;
+	font-size: 20vmin;
+	text-align: center;
+	margin-block-start: 30dvh;
 }
 
 h2 {
-  font-size: 5.5vmin;
-  text-align: center;
-  margin-block-start: 5dvh;
+	font-size: 5.5vmin;
+	text-align: center;
+	margin-block-start: 5dvh;
 }
 
 p {
-  font-size: 5vmin;
-  text-align: center;
+	font-size: 5vmin;
+	text-align: center;
+}
+
+.icon-header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 5% 5% 0;
+	z-index: 5;
+}
+
+.content-wrap {
+	position: relative;
+	height: 100%;
+}
+
+.graph-container {
+	position: relative;
+}
+.graph-bar {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 0;
+	transition: all ease-in-out 1s;
+}
+
+.graph-meta {
+	padding: 5%;
+	z-index: 8;
+	> * {
+		min-height: 20%;
+		line-height: 1.2;
+	}
 }

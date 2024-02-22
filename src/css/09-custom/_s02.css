@@ -1,6 +1,6 @@
 
-#s03 {
-	background-color: var(--colour__orange--100);
+#s02 {
+	background-color: var(--colour__purple--100);
 	&.active ~ #dividers {
 
 	}

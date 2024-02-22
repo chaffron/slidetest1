@@ -16,5 +16,7 @@
 @import '06-layouts/_layouts';
 
 @import '09-custom/_slideshow';
+@import '09-custom/_s01';
+@import '09-custom/_s02';
 @import '09-custom/_s03';
 @import '09-custom/_s04';

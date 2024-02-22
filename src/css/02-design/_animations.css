@@ -65,14 +65,33 @@
 
 }
 
-#s01.active ~ #dividers {
-  transform: rotate(45deg);
-  top: 50%;
-  left: 30%;
+#s01 ~ #dividers {
+	transform: rotate(180deg);
+	top: 70%;
+	left: 45%;
 }
 
-#s02.active ~ #dividers {
+#s01.out10 ~ #dividers {
+transform: rotate(45deg);
+top: 60%;
+left: 30%;
+}
+
+#s01.active.out50 ~ #dividers {
   transform: rotate(225deg);
   top: 10%;
   left: 70%;
+}
+
+#s01.active.out90 ~ #dividers,
+#s02.active ~ #dividers {
+  transform: rotate(310deg);
+  top: 70%;
+  left: 80%;
+}
+
+#s02.active.in70 ~ #dividers {
+	transform: rotate(400deg);
+	top: 70%;
+	left: 80%;
 }
