@@ -4,10 +4,9 @@
 	align-items: center;
 }
 
-.flex-centred-stack {
+.flex-stack {
 	display: flex;
 	justify-content: center;
-	align-items: center;
 	flex-direction: column;
 }
 

@@ -1,0 +1,39 @@
+#s06 {
+	background-color: var(--colour__purple--100);
+	.content01 {
+		z-index: 2;
+		position: absolute;
+		display: flex;
+		flex-wrap: wrap;
+		top: 0;
+		left: 0;
+		> .bg {
+			display: flex;
+			width: 50vw;
+			height: 50vh;
+			background-color: var(--colour__purple--80);
+			&.bg1 {
+				border-bottom-right-radius: var(--setting__diamond-border-radius);
+			}
+			&.bg2 {
+				border-bottom-left-radius: var(--setting__diamond-border-radius);
+			}
+			&.bg3 {
+				border-top-right-radius: var(--setting__diamond-border-radius);
+			}
+			&.bg4 {
+				border-top-left-radius: var(--setting__diamond-border-radius);
+			}
+		}
+		
+	}
+	.content02 {
+		z-index: 5;
+		position: relative;
+		.content {
+			padding: 10%;
+			height: 100vh;
+			gap: 3vmin;
+		}
+	}
+} 

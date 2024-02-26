@@ -57,6 +57,9 @@
 	font-family: "AvenirNextLTW02-Demi", sans-serif;
 }
 
+.text--left {
+	text-align: left;
+}
 .text--centre {
 	text-align: center;
 }

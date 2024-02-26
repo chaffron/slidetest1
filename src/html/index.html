@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
 <meta charset="UTF-8">
-<title>slider demonstration</title>
+<title>Student to Member Stage 2 demonstration</title>
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <script type="module" src="./js/main.js"></script>
 <link rel="stylesheet" href="./css/main.css" />
@@ -129,15 +129,15 @@
 					<div class="r1c3 graph-container">
 						<div class="graph-bar"></div>
 					</div>
-					<div class="r2c1 flex-centred-stack graph-meta">
+					<div class="r2c1 flex-stack flex-centred graph-meta">
 						<div class="text-name text--bold text--centre">0</div>
 						<div class="text-basic text--demi text--centre">Management information</div>
 					</div>
-					<div class="r2c2 flex-centred-stack graph-meta">
+					<div class="r2c2 flex-stack flex-centred graph-meta">
 						<div class="text-name text--bold text--centre">0</div>
 						<div class="text-basic text--demi text--centre">Principles of Taxation</div>
 					</div>
-					<div class="r2c3 flex-centred-stack graph-meta">
+					<div class="r2c3 flex-stack flex-centred graph-meta">
 						<div class="text-name text--bold text--centre">0</div>
 						<div class="text-basic text--demi text--centre">Business Planning</div>
 					</div>
@@ -147,54 +147,94 @@
 
 		<div id="s05" class="section-slider" style="height: 300vh;">
 			<section class="section-sticky">
-				<div>
-					<span>Pass ethics assessment</span>
-					<span></span>
-				</div>
-				<div>
-					<span>Pass all exams</span>
-					<span></span>
-				</div>
-				<div>
-					<span>52 Professional Development Skills</span>
-					<span></span>
-				</div>
-				<div>
-					<span>Complete ethics reviews</span>
-					<span></span>
-				</div>
-				<div>
-					<span>Submit training file</span>
-					<span></span>
+				<div class="qual-step-wrap">
+					<div class="qual-step qual-step--yes-alpha">
+						<div class="qual-step__text text-basic">Pass ethics assessment</div>
+						<div class="qual-step__icon">
+							<svg width="80" height="81" viewBox="0 0 80 81" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M66.6668 20.0811L30.0002 56.7841L13.3335 40.1009" stroke="white" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>							
+						</div>
+					</div>
+					<div class="qual-step qual-step--yes-beta">
+						<div class="qual-step__text text-basic">Pass all exams</div>
+						<div class="qual-step__icon">
+							<svg width="80" height="81" viewBox="0 0 80 81" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M66.6668 20.0811L30.0002 56.7841L13.3335 40.1009" stroke="white" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>								
+						</div>
+					</div>
+					<div class="qual-step qual-step--yes-gamma">
+						<div class="qual-step__text text-basic">52 Professional Development Skills</div>
+						<div class="qual-step__icon">
+							<svg width="80" height="81" viewBox="0 0 80 81" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M66.6668 20.0811L30.0002 56.7841L13.3335 40.1009" stroke="white" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>								
+						</div>
+					</div>
+					<div class="qual-step qual-step-no">
+						<div class="qual-step__text text-basic">Complete ethics reviews</div>
+						<div class="qual-step__icon">
+							<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M60 19.9995L20 59.9995M20 19.9995L60 59.9995" stroke="#666666" stroke-width="4.81928" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>
+						</div>
+					</div>
+					<div class="qual-step qual-step-no">
+						<div class="qual-step__text text-basic">Submit training file</div>
+						<div class="qual-step__icon">
+							<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M60 19.9995L20 59.9995M20 19.9995L60 59.9995" stroke="#666666" stroke-width="4.81928" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>
+						</div>
+					</div>
 				</div>
 			</section>
 		</div>
 
 		<div id="s06" class="section-slider" style="height: 200vh;">
 			<section class="section-sticky">
-				<span>You're almost there.</span>
-				<span>Keep going!</span>
-				<span>Share your story so far</span>
-				<a href="#" title="Share">Share</a>
+				<div class="content-wrap">
+					<div class="content01">
+						<div class="bg bg1"></div>
+						<div class="bg bg2"></div>
+						<div class="bg bg3"></div>
+						<div class="bg bg4"></div>
+					</div>
+					<div class="content02">
+						<div class="content flex-stack">
+							<div class="text-statistic">You're</div>
+							<div class="text-statistic">almost there.</div>
+							<div class="text-statistic text--bold">Keep going!</div>
+							<div class="text-basic">Share your story so far</div>
+							<div><a href="#" class="button button--beta has-icon icon--share" title="Share">Share</a></div>
+						</div>
+					</div>	
+				</div>			
 			</section>
 		</div>
 
 		<div id="s07" class="section-slider" style="height: 200vh;">
 			<section class="section-sticky">
-				<div>
-					<div>
-						<span>The ACA for</span>	
+				<div class="content-wrap flex-stack">
+					<div class="content01">
+						<div class="text-statistic text--bold">The ACA for</div>
 					</div>
-					<div>
-						<div>
-							<span>Success</span>
-							<span>Watch James' story and how, at 30, he's got to work all over the world.</span>
-							<a href="#" title="Watch James' Video">Watch James' Video</a>
+					<div class="content02">
+						<div class="content__text">
+							<div class="text-statistic text--bold">Success</div>
+							<div class="text-basic">Watch James' story and how, at 30, he's got to work all over the world.</div>
+							<div><a href="#" class="button button--alpha has-icon icon--video" title="Share">Watch James' video</a></div>
 						</div>
-						<div>
-							<img src="" alt="James" />
+						<div class="content__visual">
+							<picture>
+								<source srcset="../media/images/james.webp" type="image/webp">
+								<source srcset="../media/images/james.png" type="image/png">
+								<img src="../media/images/james.png" alt="James">
+							</picture>
 						</div>
 					</div>
+				</div>
 			</section>
 		</div>
 

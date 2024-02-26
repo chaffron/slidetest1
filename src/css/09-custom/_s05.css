@@ -1,0 +1,41 @@
+#s05 {
+	.qual-step-wrap {
+		display: flex;
+		flex-direction: column;
+		width: 100vw;
+		height: 100vh;
+	}
+	.qual-step {
+		display: flex;
+		flex: 1;
+		justify-content: space-between;
+		align-items: center;
+		&.qual-step--yes-alpha {
+			background-color: var(--colour__green--80);
+		}
+		&.qual-step--yes-beta {
+			background-color: var(--colour__orange--80);
+		}
+		&.qual-step--yes-gamma {
+			background-color: var(--colour__blue--80);
+		}
+		&.qual-step-no {
+			background-image: url(../media/images/icon-x--extra-bold.svg);
+			background-position: 0% 50%;
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-color: var(--colour__cool-grey--100);
+			color: var(--colour__black--60);
+		}
+		&.qual-step-05 {
+			background-color: var(--colour__cool-grey--100);
+		}
+		
+		.qual-step__text {
+			padding-left: 25%;
+		}		
+		.qual-step__icon {
+			padding: 0 5%;
+		}
+	}
+} 

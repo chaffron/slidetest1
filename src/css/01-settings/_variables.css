@@ -1,8 +1,9 @@
 :root {
 
 	/* Colours */
-	--colour__white: #ffffff;
-	--colour__black: #000000;
+	--colour__white--100: #FFFFFF;
+	--colour__black--100: #000000;
+	--colour__black--60: #666666;
 	--colour__purple--100: #B288B9;
 	--colour__purple--80: #C1A0C7;
 	--colour__purple--60: #D1B8D5;
@@ -17,4 +18,13 @@
 	--colour__green--100: #A9C47F;
 	--colour__green--80: #BAD099;
 	--colour__green--40: #DDE7CC;
+	--colour__cool-grey--100: #CCCCCC;
+	--colour__cool-grey--80: #D6D6D6;
+	--colour__red--100: #E30613;
+	--colour__red--80: #FB535D;
+
+	/* Settings */
+	--setting__diamond-border-radius: 50vmin;
+	--setting__transition--alpha: all linear 0.2s;
+
 }

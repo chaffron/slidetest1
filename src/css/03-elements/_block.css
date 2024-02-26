@@ -15,6 +15,68 @@ p {
 	text-align: center;
 }
 
+.button {
+	font-family: "AvenirNextLTW02-Demi", sans-serif;
+	padding: 0.5rem 1rem;
+	text-decoration: none;
+	border-radius: 2px;
+	transition: var(--setting__transition--alpha);
+	&.button--alpha {
+		border: 1px solid var(--colour__red--100);
+		background-color: var(--colour__red--100);
+		color: var(--colour__white--100);
+		&.has-icon:before {
+			filter: invert(100);
+		}
+	}
+	&.button--beta {
+		border: 1px solid var(--colour__black--100);
+		background-color: var(--colour__white--100);
+		color: var(--colour__black--100);
+	}
+}
+.has-icon {
+	padding-left: 2rem !important;
+	position: relative;
+	display: inline-block;
+	&:before {
+		content: '';
+		position: absolute;
+		left: 0.75rem;
+		top: calc(50% - 0.65rem);
+		display: block;
+		width: 1rem;
+		height: 1rem;
+		background-position: 50%;
+		background-repeat: no-repeat;
+		background-size: contain;
+		transition: var(--setting__transition--alpha);
+	}
+	&.icon--share:before {
+		background-image: url(../media/images/icon-share.svg);
+	}
+	&.icon--video:before {
+		background-image: url(../media/images/icon-video.svg);
+	}
+}
+
+.button:hover {
+	&.button--alpha {
+		background-color: var(--colour__red--80);
+		transition: var(--setting__transition--alpha);
+	}
+	&.button--beta {
+		text-decoration: underline;
+		background-color: var(--colour__black--100);
+		color: var(--colour__white--100);
+		transition: var(--setting__transition--alpha);
+		&:before {
+			filter: invert(100);
+			transition: var(--setting__transition--alpha);
+		}
+	}
+}
+
 .icon-header {
 	position: absolute;
 	top: 0;

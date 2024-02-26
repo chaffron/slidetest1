@@ -4,7 +4,7 @@ body {
 	height: 100dvh;
 	line-height: 1.6;
 	text-wrap: pretty;
-	background-color: var(--colour__black);
-	color: var(--colour__white);
+	background-color: var(--colour__black--100);
+	color: var(--colour__white--100);
 	overflow: hidden;
 }

@@ -1,4 +1,5 @@
 #dividers {
+	z-index: 15;
 	position: fixed;
 	min-width: 5rem;
 	min-height: 10rem;

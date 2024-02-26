@@ -1,0 +1,25 @@
+#s07 {
+	.content-wrap {
+		padding: 10vh;
+	}
+
+	background:
+		linear-gradient(135deg, var(--colour__blue--80) 25%, transparent 25%),
+		linear-gradient(225deg, var(--colour__blue--80) 25%, transparent 25%),
+		linear-gradient(315deg, var(--colour__blue--80) 25%, transparent 25%),
+		linear-gradient(45deg, var(--colour__blue--80) 25%, transparent 25%);
+	background-color: var(--colour__blue--100);
+	background-size: 22vw 22vw;
+	.content02 {
+		display: flex;
+		.content__text {
+			display: flex;
+			flex-direction: column;
+			gap: 3vmin;
+		}
+		.content__visual {
+			width: 100%;
+		}
+	}
+	
+}
