@@ -1,0 +1,27 @@
+.slide {
+  position: relative;
+  padding-block: 10dvh;
+}
+
+.stickytop {
+  position: sticky;
+  top: 0;
+}
+
+.backblue1 {
+  min-height: 300dvh;
+  background-color: #114;
+}
+
+.backgradient1 {
+  background-image: linear-gradient(calc(60deg - ((0.5 - var(--inview)) * 120deg)), #c8b1cd 0%, #c8b1cd 40%, #ad8bb6 40%, #ad8bb6 100%);
+  background-repeat: none;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.backmountain, .backmountain .slide {
+  background: no-repeat url(../media/images/back1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
