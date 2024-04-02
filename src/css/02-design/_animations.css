@@ -1,101 +1,105 @@
 /* default variables */
-:root {
+/* :root {
 
-  --progress: 1;
-  --inprog: 1;
-  --inview: 1;
+	--progress: 1;
+	--inprog: 1;
+	--inview: 1;
 
-}
+} */
 
 /* inview animations */
 .infade {
-  opacity: var(--inview);
+	opacity: var(--inview);
 }
 
 .inscale {
-  scale: var(--inview);
+	scale: var(--inview);
 }
 
 .inrotate {
-  rotate: calc(var(--inview) * -360deg);
+	rotate: calc(var(--inview) * -360deg);
 }
 
 .inleft {
-  translate: calc((var(--inview) - 1) * 100%) 0;
+	translate: calc((var(--inview) - 1) * 100%) 0;
 }
 
 .inright {
-  translate: calc((1 - var(--inview)) * 100%) 0;
+	translate: calc((1 - var(--inview)) * 100%) 0;
 }
 
 .inup {
-  translate: 0 calc((1 - var(--inview)) * 30dvh);
+	translate: 0 calc((1 - var(--inview)) * 30dvh);
 }
 
 .indown {
-  translate: 0 calc((1 - var(--inview)) * -30dvh);
+	translate: 0 calc((1 - var(--inview)) * -30dvh);
 }
 
 /* progress animations */
 .progfade {
-  opacity: var(--inprog);
+	opacity: var(--inprog);
 }
 
 .progscale {
-  scale: var(--inprog);
+	scale: var(--inprog);
 }
 
 .progrotate {
-  rotate: calc(var(--inprog) * -360deg);
+	rotate: calc(var(--inprog) * -360deg);
 }
 
 .progleft {
-  translate: calc((var(--inprog) - 1) * 100%) 0;
+	translate: calc((var(--inprog) - 1) * 100%) 0;
 }
 
 .progright {
-  translate: calc((1 - var(--inprog)) * 100%) 0;
+	translate: calc((1 - var(--inprog)) * 100%) 0;
 }
 
 .progup {
-  translate: 0 calc((1 - var(--inprog)) * 30dvh);
+	translate: 0 calc((1 - var(--inprog)) * 30dvh);
 }
 
 .progdown {
-  translate: 0 calc((1 - var(--inprog)) * -30dvh);
+	translate: 0 calc((1 - var(--inprog)) * -30dvh);
 }
+
+
 
 /* entry animations when slide is 40% or more in view */
-.in0, .in1, .in20 {
+.iv0, .iv1, .iv20 {
 
-  .showfade { opacity: 0; }
-  .showscale { scale: 0; }
-  .showrotate { rotate: 360deg; }
-  .showleft { translate: 100% 0; }
-  .showright { translate: -100% 0; }
-  .showup { translate: 0 30dvh; }
-  .showdown { translate: 0 -30dvh; }
+	.fadein {opacity: 0;}
+	.showfade { opacity: 0; }
+	.showscale { scale: 0; }
+	.showrotate { rotate: 360deg; }
+	.showleft { translate: 100% 0; }
+	.showright { translate: -100% 0; }
+	.showup { translate: 0 30dvh; }
+	.showdown { translate: 0 -30dvh; }
 
 }
 
-.in40 {
+.iv40 {
 
-  .showfade { opacity: 1; }
-  .showscale { scale: 1; }
-  .showrotate { rotate: 0deg; }
-  .showleft, .showright, .showup, .showdown { translate: 0 0; }
+	.fadein {opacity: 1;}
+	.showfade { opacity: 1; }
+	.showscale { scale: 1; }
+	.showrotate { rotate: 0deg; }
+	.showleft, .showright, .showup, .showdown { translate: 0 0; }
 
-  .showfade, .showscale, .showrotate, .showleft, .showright, .showup, .showdown {
-    transition: all ease-out 0.5s;
-    transition-delay: 0.25s;
+	.showfade, .showscale, .showrotate, .showleft, .showright, .showup, .showdown {
+		transition: all ease-out 0.5s;
+		transition-delay: 0.25s;
 
-    &:nth-child(2) { transition-delay: 0.5s; }
-    &:nth-child(3) { transition-delay: 0.75s; }
-    &:nth-child(4) { transition-delay: 1s; }
-    &:nth-child(5) { transition-delay: 1.25s; }
-    &:nth-child(6) { transition-delay: 1.5s; }
-    &:nth-child(7) { transition-delay: 1.75s; }
-    &:nth-child(8) { transition-delay: 2s; }
-  }
+		&:nth-child(2) { transition-delay: 0.5s; }
+		&:nth-child(3) { transition-delay: 0.75s; }
+		&:nth-child(4) { transition-delay: 1s; }
+		&:nth-child(5) { transition-delay: 1.25s; }
+		&:nth-child(6) { transition-delay: 1.5s; }
+		&:nth-child(7) { transition-delay: 1.75s; }
+		&:nth-child(8) { transition-delay: 2s; }
+	}
 
 }

@@ -1,0 +1,33 @@
+/* .flex-centred {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+} */
+
+/* .flex-stack {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+} */
+
+/* .section-sticky {
+	position: sticky;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+} */
+
+@media only screen and (min-width: 60.0125em) {
+	.sl-60r--large {
+		width: 60%;
+		margin-left: auto;
+	}
+}
+
+.sl-grid-60-40 {
+	display: grid;
+	width: 100vw;
+	height: 100vh;
+	grid-template-columns: repeat(3, 33.33vw);
+	grid-template-rows: 60vh 40vh;
+}

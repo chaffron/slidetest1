@@ -1,0 +1,74 @@
+/* Text styles */
+
+.text-name {
+	font-size: 12vmin;
+	text-align: center;
+}
+.text-basic {
+	font-size: 3vmin;
+}
+.text-large {
+	font-size: 4vmin;
+}
+
+.text-date {
+	font-size: 4vmin;
+	line-height: 1.2;
+	text-align: left;
+}
+.text-statistic-mega {
+	padding: 0 20%;
+	font-size: 25vmin;
+	line-height: 1;
+}
+.text-micro {
+	text-transform: uppercase;
+	font-size: 2.4vmin;
+}
+/* 
+sup.text-sup {
+	font-size: 0.7em;
+} */
+
+/* Text modifiers */
+
+.text--push {
+	width: max-content;
+	margin-left: auto;
+	margin-top: auto;
+}
+
+.text-min--right {
+	width: max-content;
+	margin-left: auto;
+}
+
+/* .text--bold {
+	font-family: "AvenirNextLTW02-Bold", sans-serif;
+} */
+/* .text--demi {
+	font-family: "AvenirNextLTW02-Demi", sans-serif;
+} */
+/* 
+.text--left {
+	text-align: left;
+}
+.text--centre {
+	text-align: center;
+}
+.text--right {
+	text-align: right;
+} */
+
+
+
+@media only screen and (max-width: 60em) {
+	.hide-for-small {
+		display: none;
+	}
+}
+@media only screen and (min-width: 60.0125em) {
+	.show-for-small {
+		display: none;
+	}
+}

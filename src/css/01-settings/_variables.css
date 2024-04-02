@@ -1,12 +1,51 @@
 :root {
 
-  /* foreground colours */
-  --color-fore1: #fff;
+	/* Colours */
+	--colour__white--100: #FFFFFF;
+	--colour__black--100: #000000;
+	--colour__black--80: #333333;
+	--colour__black--60: #666666;
+	--colour__purple--100: #B288B9;
+	--colour__purple--80: #C1A0C7;
+	--colour__purple--60: #D1B8D5;
+	--colour__purple--40: #E0CFE3;
+	--colour__orange--100: #E6A65D;
+	--colour__orange--80: #EBB87D;
+	--colour__orange--60: #F0CA9E;
+	--colour__orange--40: #F5DBBE;
+	--colour__blue--100: #8BD3E6;
+	--colour__blue--80: #A2DCEB;
+	--colour__blue--60: #B9E5F0;
+	--colour__blue--40: #D1EDF5;
+	--colour__teal--100: #6BCABA;
+	--colour__teal--80: #89D5C8;
+	--colour__teal--60: #A6DFD6;
+	--colour__teal--40: #C4EAE3;
+	--colour__green--100: #A9C47F;
+	--colour__green--80: #BAD099;
+	--colour__green--60: #CBDCB2;
+	--colour__green--40: #DDE7CC;
+	--colour__cool-grey--100: #CCCCCC;
+	--colour__cool-grey--80: #D6D6D6;
+	--colour__red--100: #E30613;
+	--colour__red--80: #FB535D;
+	--colour__feedback-yay--100: #82BF58;
 
-  /* background colours */
-  --color-back1: #030405;
+	/* Link Colours */
+	--colour__link: --colour__black--100;
+	--colour__link--active: --colour__purple--100;
 
-  /* link colours */
-  --color-link1: #33f;
-  --color-link2: #99d;
+	/* Settings */
+	--setting__diamond-border-radius: 50vmin;
+	--setting__transition--alpha: all linear 0.2s;
+
+	--setting__body-colour--from: #ccc;
+	--setting__body-rotation: 245deg;
+
+	/* Progress tracking default variables */
+	--progress: 1;
+	--inprog: 1;
+	--inview: 1;
+
+	--chartBarHeight: 0;
 }

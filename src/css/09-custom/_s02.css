@@ -1,0 +1,31 @@
+
+#s02 {
+	height: 140vh;
+	background-image: linear-gradient(243.18deg, var(--colour__teal--100) 0%, var(--colour__teal--60) 100%);
+	background-repeat: none;
+	background-size: cover;
+	background-attachment: fixed;
+	.shape01 {
+		top: 0;
+		left: 0;
+		width:60vw;
+		height: 60vw;
+		transform: rotate(-15deg) translate(-7vw, -12vw);
+		.ip80 & {
+			transform: rotate(0deg) translate(-12vw, -12vw);
+		}
+	}
+	.shape02 {
+		bottom: 0;
+		right: 0;
+		width: 35vw;
+		height: 35vw;
+		transform:  rotate(0deg) translate(-5vw, 15vw);
+		.ip80 & {
+			transform: rotate(-30deg) translate(-5vw, -5vw);	
+		}
+	}
+	.content01 {
+		transition: opacity ease-in-out 1s;
+	}
+}

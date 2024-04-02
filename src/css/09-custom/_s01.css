@@ -1,0 +1,72 @@
+
+#s01 {
+	height: 180vh;
+	background-color: var(--colour__blue--60);
+	background-image: linear-gradient(243.18deg, var(--colour__blue--100) 0%, var(--colour__blue--60) 100%);	
+	background-size: cover;
+	background-attachment: fixed;
+	.content01,
+	.content02 {
+		position: relative;
+		padding-top: 40dvh;
+		/* position: absolute;
+		top: 0;
+		left: 0;
+		width: 100vw;
+		height: 100vh;
+		padding-bottom: 30dvh; */
+	}
+	/* .content01 {
+		opacity: 1;
+		z-index: 2;
+	} */
+	/* .content02 {
+		/* background: linear-gradient(243.18deg, var(--colour__teal--100) 0%, var(--colour__teal--40) 100%); */
+		/* opacity: 0;
+		transition: opacity ease-in-out 1s;
+		z-index: 1;
+	} */
+	/* &.ip70 {
+		.content01 {
+			opacity: 0;
+			transition: opacity ease-in-out 1s;
+		}
+		.content02 {
+			opacity: 1;
+			transition: opacity ease-in-out 1s;
+		}
+	} */
+	.shape01,
+	.shape02 {
+		content: '';
+		width: 30vmin;
+		height: 30vmin;
+		border-radius: 100%;
+		background-image: radial-gradient(42.31% 42.31% at 72.23% 37.06%, var(--colour__blue--60) 0%, var(--colour__blue--100) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+		top: -2vmin;
+		right: 4vmin;
+		filter: blur(0.5vmin);
+		transition: all ease-in 0.5s;
+	}
+	.shape02 {
+		width:90vmin;
+		height: 90vmin;
+		top: initial;
+		right: initial;
+		bottom: -5vmin;
+		left: -30vmin;
+		filter: blur(0vmin);
+	}
+	/* &.ip80 {
+		.shape01 {
+			filter: blur(0vmin);
+			transform: translateX(calc(var(--inprog)) * 6vmin) scale(calc(var(--inprog)) * 8) translateY(calc(var(--inprog)) * 2vmin);
+			transition: all ease-in 1s;
+		}
+		.shape02 {
+			filter: blur(0.3vmin);
+			transform: scale(1.1) translate3d(-1vmin, 1vmin, 0);
+			transition: all ease-in 1s;
+		}
+	} */
+}

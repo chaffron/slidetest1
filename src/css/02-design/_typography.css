@@ -1,0 +1,59 @@
+/* Text styles */
+
+.text-statistic-mega {
+	font-size: 30vmin;
+	line-height: 1.2;
+}
+
+.text-statistic {
+	font-size: 20vmin;
+	line-height: 1.2;
+}
+
+.text-xxlarge {
+	font-size: 13vmin;
+	line-height: 1;
+	white-space: nowrap;
+}
+.text-xlarge {
+	font-size: 12vmin;
+	line-height: 1;
+	white-space: nowrap;
+}
+.text-large {
+	font-size: 9vmin;
+	line-height: 1.2;
+}
+.text-intro {
+	font-size: 6vmin;
+	line-height: 1.2;
+	text-align: center;
+	padding: 30vh 10vw;
+}
+
+.text-regular {
+	font-size: 4vmin;
+	line-height: 1.2;
+}
+
+.text-micro {
+	font-size: 2vmin;
+	line-height: 1.2;
+}
+
+sup.text-sup {
+	font-size: 0.7em;
+}
+
+.text--left {
+	text-align: left;
+}
+.text--centre {
+	text-align: center;
+}
+.text--right {
+	text-align: right;
+}
+.text--demi {
+	font-family: "AvenirNextLTW02-Demi", sans-serif;
+}

@@ -1,0 +1,45 @@
+
+.no-js {
+	#s01, #s02, #s03 {
+		.content01,
+		.content02 {
+			position: relative;
+			opacity: 1;
+			height: 100%;
+			margin-top: 0;
+		}
+	}
+	#s01 .content01 {
+		min-height: 100vh;
+	}
+	#s01 .content02 {
+		height: auto;
+		.text-intro {
+			padding: 10% 10% 25%;
+		}
+	}
+	#s04 {
+		.icon-header {
+			position: absolute;
+		}
+	}
+	#s06 {
+		.content01,
+		.content02 {
+			height: 100%;
+		}
+		.content01 .bg {
+			height: 50%;
+		}
+	}
+	.icon-header {
+		position: relative;
+	}
+	.section-slider {
+		height: auto !important; /* Override inline style until data-attribute driven */
+	}
+	.section-sticky {
+		position: relative;
+		height: auto;
+	}
+}

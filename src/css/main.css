@@ -3,9 +3,29 @@
 @import '01-settings/_reset';
 
 @import '02-design/_page';
-@import '02-design/_animations';
-@import '02-design/_slides-custom';
+@import '02-design/_typography';
+@import '02-design/_layouts';
+/* @import '02-design/_animations'; */  /* Example animations*/
+/* @import '02-design/_slides-custom'; */
 
 @import '03-elements/_block';
+@import '03-elements/_shapes';
+@import '03-elements/_controls';
+@import '03-elements/_dividers';
 
-@import '04-components/_share';
+/* @import '04-components/_share'; */
+
+/* @import '05-typography/_typography'; */
+
+/* @import '06-layouts/_layers'; */
+/* @import '06-layouts/_layouts'; */
+
+@import '09-custom/_s01';
+@import '09-custom/_s02';
+@import '09-custom/_s03';
+@import '09-custom/_s04';
+@import '09-custom/_s05';
+@import '09-custom/_s06';
+@import '09-custom/_s07';
+@import '09-custom/_s08';
+@import '09-custom/_no-js';

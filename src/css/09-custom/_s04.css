@@ -1,0 +1,104 @@
+#s04 {
+	height: 150vh;
+	background-image: linear-gradient(116.15deg, var(--colour__orange--100) 0%, var(--colour__orange--60) 100%);
+	background-repeat: none;
+	background-size: cover;
+	background-attachment: fixed;
+
+	.shape01 {
+		top: 0;
+		left: 0;
+		width: 40vw;
+		height: 40vw;
+		transform: rotate(20deg) translateX(3vw);
+		.ip60 & {
+			transform: rotate(30deg);
+		}
+	}
+	.shape02 {
+		bottom: 0;
+		right: 0;
+		width: 80vw;
+		height: 80vw;
+		transform: rotate(0deg) translate(10vw, 15vw);
+		.ip70 & {
+			transform: rotate(-7deg) translate(10vw, 13vw);
+		}
+	}
+/* 
+	background-color: var(--colour__orange--60);
+	.r1c1 {
+		background-color: var(--colour__blue--40);
+		.graph-bar {
+			background-color: var(--colour__blue--80);
+		}
+	}
+	.r1c2 {
+		background-color: var(--colour__teal--40);
+		.graph-bar {
+			background-color: var(--colour__teal--80);
+		}
+	}
+	.r1c3 {
+		background-color: var(--colour__green--40);
+		.graph-bar {
+			background-color: var(--colour__green--80);
+		}
+	}
+	.r2c1 {
+		background-color: var(--colour__blue--80);
+	}
+	.r2c2 {
+		background-color: var(--colour__teal--80);
+	}
+	.r2c3 {
+		background-color: var(--colour__green--80);
+	}
+	.graph-overlay {
+		position: absolute;
+		top: 60vh;
+		width: 100vw;
+		text-align: center;
+		z-index: 5;
+		transition: all ease-in-out 1.5s;
+	} */
+	
+}
+
+#s04.iv89 {
+	transition: none;
+}
+#s04.ip89:has( + #s05.iv99 + #s06:not(.iv50)) .shape02 {
+	position: fixed;
+	transform: rotate(-7deg) translate(20.20vw, -67.5vw);
+	border: 2px solid fuchsia;
+	transition: none;
+}
+
+
+/* This is the slice between s04 and s05 that contains the shape that borders both sticklily */
+
+#s04-05 {
+	position: relative;
+	.shape02 {
+		bottom: 0;
+		right: 0;
+		width: 80vw;
+		height: 80vw;
+		transform: rotate(0deg) translate(10vw, 15vw);
+		/* .ip70 & {
+			transform: rotate(-7deg) translate(10vw, 13vw);
+		} */
+	}
+}
+
+#s04-5.shape02 {
+	bottom: 0;
+	right: 0;
+	width: 80vw;
+	height: 80vw;
+	transform: rotate(0deg) translate(10vw, 15vw);
+	.ip70 & {
+		transform: rotate(-7deg) translate(10vw, 13vw);
+	}
+}

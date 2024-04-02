@@ -1,0 +1,35 @@
+#controls {
+	position:fixed;	
+	height: 100%;
+	z-index: 12;
+	right: 1vmin;
+	top: 0;
+	width: 3vmin;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 3vmin;
+	.control {
+		display: block;
+		width: 2vmin;
+		height: 2vmin;
+		border-radius: 50%;
+		border: 1px solid var(--colour__cool-grey--100);
+		background-color: var(--colour__white--100);
+		transition: var(--setting__transition--alpha);
+		box-shadow: 0 0 0.125rem var(--colour__black--100);
+	}
+}
+
+#s01.iv60 ~ #controls [href="#s01"] .control,
+#s02.iv60 ~ #controls [href="#s02"] .control,
+#s03.iv60 ~ #controls [href="#s03"] .control,
+#s04.iv60 ~ #controls [href="#s04"] .control,
+#s05.iv60 ~ #controls [href="#s05"] .control,
+#s06.iv60 ~ #controls [href="#s06"] .control,
+#s07.iv60 ~ #controls [href="#s07"] .control,
+#s08.iv60 ~ #controls [href="#s08"] .control {
+	background-color: var(--colour__feedback-yay--100);
+	box-shadow: inset 0 0 0.125rem var(--colour__white--100);
+}

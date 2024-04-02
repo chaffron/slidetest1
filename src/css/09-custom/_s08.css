@@ -1,0 +1,45 @@
+#s08 {
+
+	height: 200vh;
+	background-image: linear-gradient(243.18deg, var(--colour__blue--100) 0%, var(--colour__blue--60) 100%);
+	background-repeat: none;
+	background-size: cover;
+	background-attachment: fixed;
+	background-color: var(--colour__blue--100);
+
+	.shape01,
+	.shape02 {
+		content: '';
+		width: 30vmin;
+		height: 30vmin;
+		border-radius: 100%;
+		background-image: radial-gradient(42.31% 42.31% at 72.23% 37.06%, var(--colour__blue--60) 0%, var(--colour__blue--100) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+		top: -1vmin;
+		right: 4vmin;
+		/* filter: blur(0.5vmin); */
+		transition: all ease-in 0.5s;
+	}
+	.shape02 {
+		width:90vmin;
+		height: 90vmin;
+		top: initial;
+		right: initial;
+		bottom: -25vmin;
+		left: -10vmin;
+		filter: blur(0vmin);
+	}
+	.content__text {
+		width: 65%;
+		padding-right: 2vw;
+	}
+	.content__visual {
+		width: 35%;
+	}
+	.m-neg {
+		margin-right: -5vw;
+	}
+	.card-grid {
+		height: 100%;
+		z-index: 5;
+	}
+}
